@@ -1,0 +1,2 @@
+aws-kcl
+aws-sdk

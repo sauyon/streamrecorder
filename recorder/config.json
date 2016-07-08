@@ -1,0 +1,15 @@
+{
+	"termination": {
+		"type": "{{termType}}", //<records|time|none> (size?)
+		"num": {{termNum}} //<records|time in ms> (size in bytes?)
+	},
+	"in": {
+		"name": "{{inAdapter}}",
+		"options": {{{inOptions}}}
+	},
+	"store": {
+		"name": "{{storeAdapter}}",
+		"session": "{{storeSession}}"
+		"options": {{{inOptions}}}
+	}
+}
